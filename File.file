@@ -1,0 +1,53 @@
+
+  
+body{
+  background-color:black;
+}
+h1{
+  text-align:center;
+}
+#game{
+  position:absolute;
+  top:10%;
+  left:27%;
+}
+button{
+  background-color:black;
+  border:none;
+  font-size:20px;
+  padding-bottom:5px;
+}
+button:hover{
+  border:solid white 1px;
+}
+#colorButton {
+  position:absolute;
+  right:7%;
+  top:5%;
+}
+input{
+  position:absolute;
+  right:7.5%;
+}
+.contact{
+  position:absolute;
+  font-size:17px;
+  right:2%;
+}
+.contact:first-of-type{
+  top:30%;
+  right:4.4%;
+}
+.contact:last-of-type{
+  top:35%;
+}
+
+body, h1, h3, button {
+  color:white;
+}
+
+@media only screen and (max-width: 1360px) {
+  #colorButton, #slideContainer, #Contacts{
+    display:none;
+  }
+}
